@@ -1,0 +1,60 @@
+/* Original styles - don't edit these! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Add your styles below here*/
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(58, 49, 49);
+}
+.container {
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-columns: 150px 150px 150px 150px;
+  gap: 0.5em;
+  justify-content: center;
+  margin: 10px;
+}
+.bg1,
+.bg2 {
+  color: #eee;
+  text-align: center;
+  padding-top: 80px;
+  cursor: pointer;
+}
+.a {
+  margin-bottom: 5px;
+  background-color: black;
+  display: inline-block;
+  padding: 4px;
+  font-size: small;
+}
+.b {
+  background-color: black;
+  display: inline-block;
+  padding: 4px;
+  font-size: small;
+}
+.a:hover {
+  color: green;
+}
+.b:hover {
+  color: blue;
+}
